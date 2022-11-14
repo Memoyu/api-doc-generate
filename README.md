@@ -4,10 +4,7 @@
 
 ## 方案
 
-
-### 文档生成
-
-#### 1. [Sandcastle](https://github.com/EWSoftware/SHFB)
+### 1. [Sandcastle](https://github.com/EWSoftware/SHFB)
 
 Sandcastle是一个微软官方的管理类库的文档编译器，是用于编译发布组件（Assembly）信息的一个工具；
 
@@ -15,7 +12,7 @@ Sandcastle是一个微软官方的管理类库的文档编译器，是用于编�
 
 
 
-#### 2. [Doxygen](https://github.com/doxygen/doxygen)
+### 2. [Doxygen](https://github.com/doxygen/doxygen)
 
 支持多语言，可以将程序源码中的特定批注转换成为说明文件。
 
@@ -23,21 +20,11 @@ Sandcastle是一个微软官方的管理类库的文档编译器，是用于编�
 
 
 
-#### 3. [DocFX](https://github.com/dotnet/docfx)
+### 3. [DocFX](https://github.com/dotnet/docfx)
 
 目前微软文档使用的工具是 docfx ，这一项目隶属于.NET Foundation，MIT协议；支持将文档构建成静态Web项目，同时可以添加md文档进行说明的扩充；同时支持许多自定义操作，满足更多需求；
 
 文档：[DocFX - static documentation generator](https://dotnet.github.io/docfx/)
-
-
-
-### 定时更新
-
-**方案**：创建一个控制台应用程序，进行定时处理源文件的比对(确定是否需要构建)、执行cmd命令进行文档的构建等，实现文档的实时性；
-
-**环境**：dotnet sdk、msbuild
-
-**资源**：需要构建文档的程序集生成的xml及dll文件
 
 
 
@@ -62,9 +49,19 @@ Sandcastle是一个微软官方的管理类库的文档编译器，是用于编�
 
 
 
+## 生成
+
+[SandCastle](https://github.com/Memoyu/api-doc-generate/tree/main/process/1-SandCastle)
+
+[Doxygen](https://github.com/Memoyu/api-doc-generate/tree/main/process/2-Doxygen)
+
+[DocFX](https://github.com/Memoyu/api-doc-generate/tree/main/process/3-DocFX)
+
+
+
 ## 案例
 
-
+[api-doc-generate demo](https://github.com/Memoyu/api-doc-generate/tree/main/demo)
 
 
 
