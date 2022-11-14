@@ -1,0 +1,252 @@
+### YamlMime:ManagedReference
+items:
+- uid: Doc.Builder.Service.Domain.Entities.CarEntity
+  commentId: T:Doc.Builder.Service.Domain.Entities.CarEntity
+  id: CarEntity
+  parent: Doc.Builder.Service.Domain.Entities
+  children:
+  - Doc.Builder.Service.Domain.Entities.CarEntity.#ctor
+  - Doc.Builder.Service.Domain.Entities.CarEntity.Height
+  - Doc.Builder.Service.Domain.Entities.CarEntity.Id
+  - Doc.Builder.Service.Domain.Entities.CarEntity.Logo
+  - Doc.Builder.Service.Domain.Entities.CarEntity.Width
+  langs:
+  - csharp
+  - vb
+  name: CarEntity
+  nameWithType: CarEntity
+  fullName: Doc.Builder.Service.Domain.Entities.CarEntity
+  type: Class
+  source:
+    path: Doc.Builder.Service
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Service
+  namespace: Doc.Builder.Service.Domain.Entities
+  summary: "\nCar 实体\n"
+  syntax:
+    content: 'public class CarEntity : Object'
+    content.vb: >-
+      Public Class CarEntity
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Doc.Builder.Service.Domain.Entities.CarEntity.#ctor
+  commentId: M:Doc.Builder.Service.Domain.Entities.CarEntity.#ctor
+  id: '#ctor'
+  parent: Doc.Builder.Service.Domain.Entities.CarEntity
+  langs:
+  - csharp
+  - vb
+  name: CarEntity()
+  nameWithType: CarEntity.CarEntity()
+  fullName: Doc.Builder.Service.Domain.Entities.CarEntity.CarEntity()
+  type: Constructor
+  source:
+    path: Doc.Builder.Service
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Service
+  namespace: Doc.Builder.Service.Domain.Entities
+  syntax:
+    content: public CarEntity()
+    content.vb: Public Sub New
+  overload: Doc.Builder.Service.Domain.Entities.CarEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Doc.Builder.Service.Domain.Entities.CarEntity.Id
+  commentId: P:Doc.Builder.Service.Domain.Entities.CarEntity.Id
+  id: Id
+  parent: Doc.Builder.Service.Domain.Entities.CarEntity
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: CarEntity.Id
+  fullName: Doc.Builder.Service.Domain.Entities.CarEntity.Id
+  type: Property
+  source:
+    path: Doc.Builder.Service
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Service
+  namespace: Doc.Builder.Service.Domain.Entities
+  summary: "\n唯一Id\n"
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: Doc.Builder.Service.Domain.Entities.CarEntity.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Doc.Builder.Service.Domain.Entities.CarEntity.Logo
+  commentId: P:Doc.Builder.Service.Domain.Entities.CarEntity.Logo
+  id: Logo
+  parent: Doc.Builder.Service.Domain.Entities.CarEntity
+  langs:
+  - csharp
+  - vb
+  name: Logo
+  nameWithType: CarEntity.Logo
+  fullName: Doc.Builder.Service.Domain.Entities.CarEntity.Logo
+  type: Property
+  source:
+    path: Doc.Builder.Service
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Service
+  namespace: Doc.Builder.Service.Domain.Entities
+  summary: "\n车标\n"
+  syntax:
+    content: public string Logo { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Logo As String
+  overload: Doc.Builder.Service.Domain.Entities.CarEntity.Logo*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Doc.Builder.Service.Domain.Entities.CarEntity.Height
+  commentId: P:Doc.Builder.Service.Domain.Entities.CarEntity.Height
+  id: Height
+  parent: Doc.Builder.Service.Domain.Entities.CarEntity
+  langs:
+  - csharp
+  - vb
+  name: Height
+  nameWithType: CarEntity.Height
+  fullName: Doc.Builder.Service.Domain.Entities.CarEntity.Height
+  type: Property
+  source:
+    path: Doc.Builder.Service
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Service
+  namespace: Doc.Builder.Service.Domain.Entities
+  summary: "\n车高\n"
+  syntax:
+    content: public float Height { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Height As Single
+  overload: Doc.Builder.Service.Domain.Entities.CarEntity.Height*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Doc.Builder.Service.Domain.Entities.CarEntity.Width
+  commentId: P:Doc.Builder.Service.Domain.Entities.CarEntity.Width
+  id: Width
+  parent: Doc.Builder.Service.Domain.Entities.CarEntity
+  langs:
+  - csharp
+  - vb
+  name: Width
+  nameWithType: CarEntity.Width
+  fullName: Doc.Builder.Service.Domain.Entities.CarEntity.Width
+  type: Property
+  source:
+    path: Doc.Builder.Service
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Service
+  namespace: Doc.Builder.Service.Domain.Entities
+  summary: "\n车宽\n"
+  syntax:
+    content: public float Width { get; set; }
+    parameters: []
+    return:
+      type: System.Single
+    content.vb: Public Property Width As Single
+  overload: Doc.Builder.Service.Domain.Entities.CarEntity.Width*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Doc.Builder.Service.Domain.Entities
+  commentId: N:Doc.Builder.Service.Domain.Entities
+  isExternal: true
+  name: Doc.Builder.Service.Domain.Entities
+  nameWithType: Doc.Builder.Service.Domain.Entities
+  fullName: Doc.Builder.Service.Domain.Entities
+- uid: Doc.Builder.Service.Domain.Entities.CarEntity.#ctor*
+  commentId: Overload:Doc.Builder.Service.Domain.Entities.CarEntity.#ctor
+  isExternal: true
+  name: CarEntity
+  nameWithType: CarEntity.CarEntity
+  fullName: Doc.Builder.Service.Domain.Entities.CarEntity.CarEntity
+- uid: Doc.Builder.Service.Domain.Entities.CarEntity.Id*
+  commentId: Overload:Doc.Builder.Service.Domain.Entities.CarEntity.Id
+  isExternal: true
+  name: Id
+  nameWithType: CarEntity.Id
+  fullName: Doc.Builder.Service.Domain.Entities.CarEntity.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Doc.Builder.Service.Domain.Entities.CarEntity.Logo*
+  commentId: Overload:Doc.Builder.Service.Domain.Entities.CarEntity.Logo
+  isExternal: true
+  name: Logo
+  nameWithType: CarEntity.Logo
+  fullName: Doc.Builder.Service.Domain.Entities.CarEntity.Logo
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Doc.Builder.Service.Domain.Entities.CarEntity.Height*
+  commentId: Overload:Doc.Builder.Service.Domain.Entities.CarEntity.Height
+  isExternal: true
+  name: Height
+  nameWithType: CarEntity.Height
+  fullName: Doc.Builder.Service.Domain.Entities.CarEntity.Height
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: Single
+  nameWithType: Single
+  fullName: System.Single
+- uid: Doc.Builder.Service.Domain.Entities.CarEntity.Width*
+  commentId: Overload:Doc.Builder.Service.Domain.Entities.CarEntity.Width
+  isExternal: true
+  name: Width
+  nameWithType: CarEntity.Width
+  fullName: Doc.Builder.Service.Domain.Entities.CarEntity.Width

@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Doc.Builder.Service.Domain.Enums
+  commentId: N:Doc.Builder.Service.Domain.Enums
+  id: Doc.Builder.Service.Domain.Enums
+  children:
+  - Doc.Builder.Service.Domain.Enums.GenderEnum
+  langs:
+  - csharp
+  - vb
+  name: Doc.Builder.Service.Domain.Enums
+  nameWithType: Doc.Builder.Service.Domain.Enums
+  fullName: Doc.Builder.Service.Domain.Enums
+  type: Namespace
+  assemblies:
+  - Doc.Builder.Service
+references:
+- uid: Doc.Builder.Service.Domain.Enums.GenderEnum
+  commentId: T:Doc.Builder.Service.Domain.Enums.GenderEnum
+  parent: Doc.Builder.Service.Domain.Enums
+  isExternal: true
+  name: GenderEnum
+  nameWithType: GenderEnum
+  fullName: Doc.Builder.Service.Domain.Enums.GenderEnum
+- uid: Doc.Builder.Service.Domain.Enums
+  commentId: N:Doc.Builder.Service.Domain.Enums
+  isExternal: true
+  name: Doc.Builder.Service.Domain.Enums
+  nameWithType: Doc.Builder.Service.Domain.Enums
+  fullName: Doc.Builder.Service.Domain.Enums

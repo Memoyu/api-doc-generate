@@ -1,0 +1,7 @@
+apiRules:
+- exclude:
+#     uidRegex: ^Doc\.Builder\.Service\.Domain\.Entities$
+#     type: Namespace
+# - exclude:
+#     uidRegex: ^Doc\.Builder\.Service\.Domain\.Dtos$
+#     type: Namespace

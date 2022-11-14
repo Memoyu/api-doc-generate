@@ -1,0 +1,193 @@
+### YamlMime:ManagedReference
+items:
+- uid: Doc.Builder.Lib.DEncrypt.MD5Helper
+  commentId: T:Doc.Builder.Lib.DEncrypt.MD5Helper
+  id: MD5Helper
+  parent: Doc.Builder.Lib.DEncrypt
+  children:
+  - Doc.Builder.Lib.DEncrypt.MD5Helper.#ctor
+  - Doc.Builder.Lib.DEncrypt.MD5Helper.ToMD5(System.Byte[])
+  - Doc.Builder.Lib.DEncrypt.MD5Helper.ToMD5(System.String)
+  langs:
+  - csharp
+  - vb
+  name: MD5Helper
+  nameWithType: MD5Helper
+  fullName: Doc.Builder.Lib.DEncrypt.MD5Helper
+  type: Class
+  source:
+    path: Doc.Builder.Lib
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Lib
+  namespace: Doc.Builder.Lib.DEncrypt
+  summary: "\nMD5 工具类\n"
+  syntax:
+    content: 'public class MD5Helper : Object'
+    content.vb: >-
+      Public Class MD5Helper
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Doc.Builder.Lib.DEncrypt.MD5Helper.ToMD5(System.String)
+  commentId: M:Doc.Builder.Lib.DEncrypt.MD5Helper.ToMD5(System.String)
+  id: ToMD5(System.String)
+  parent: Doc.Builder.Lib.DEncrypt.MD5Helper
+  langs:
+  - csharp
+  - vb
+  name: ToMD5(String)
+  nameWithType: MD5Helper.ToMD5(String)
+  fullName: Doc.Builder.Lib.DEncrypt.MD5Helper.ToMD5(System.String)
+  type: Method
+  source:
+    path: Doc.Builder.Lib
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Lib
+  namespace: Doc.Builder.Lib.DEncrypt
+  summary: "\n计算字符串的Md5值 \n"
+  syntax:
+    content: public static string ToMD5(string plainText)
+    parameters:
+    - id: plainText
+      type: System.String
+      description: 原文
+    return:
+      type: System.String
+      description: 返回 string 原文的MD5
+    content.vb: Public Shared Function ToMD5(plainText As String) As String
+  overload: Doc.Builder.Lib.DEncrypt.MD5Helper.ToMD5*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Doc.Builder.Lib.DEncrypt.MD5Helper.ToMD5(System.Byte[])
+  commentId: M:Doc.Builder.Lib.DEncrypt.MD5Helper.ToMD5(System.Byte[])
+  id: ToMD5(System.Byte[])
+  parent: Doc.Builder.Lib.DEncrypt.MD5Helper
+  langs:
+  - csharp
+  - vb
+  name: ToMD5(Byte[])
+  nameWithType: MD5Helper.ToMD5(Byte[])
+  fullName: Doc.Builder.Lib.DEncrypt.MD5Helper.ToMD5(System.Byte[])
+  type: Method
+  source:
+    path: Doc.Builder.Lib
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Lib
+  namespace: Doc.Builder.Lib.DEncrypt
+  summary: "\n计算文件的Md5值 \n"
+  syntax:
+    content: public static string ToMD5(byte[] file)
+    parameters:
+    - id: file
+      type: System.Byte[]
+      description: 文件字节数组
+    return:
+      type: System.String
+      description: 返回 string 文件的MD5
+    content.vb: Public Shared Function ToMD5(file As Byte()) As String
+  overload: Doc.Builder.Lib.DEncrypt.MD5Helper.ToMD5*
+  nameWithType.vb: MD5Helper.ToMD5(Byte())
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+  fullName.vb: Doc.Builder.Lib.DEncrypt.MD5Helper.ToMD5(System.Byte())
+  name.vb: ToMD5(Byte())
+- uid: Doc.Builder.Lib.DEncrypt.MD5Helper.#ctor
+  commentId: M:Doc.Builder.Lib.DEncrypt.MD5Helper.#ctor
+  id: '#ctor'
+  parent: Doc.Builder.Lib.DEncrypt.MD5Helper
+  langs:
+  - csharp
+  - vb
+  name: MD5Helper()
+  nameWithType: MD5Helper.MD5Helper()
+  fullName: Doc.Builder.Lib.DEncrypt.MD5Helper.MD5Helper()
+  type: Constructor
+  source:
+    path: Doc.Builder.Lib
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Lib
+  namespace: Doc.Builder.Lib.DEncrypt
+  syntax:
+    content: public MD5Helper()
+    content.vb: Public Sub New
+  overload: Doc.Builder.Lib.DEncrypt.MD5Helper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Doc.Builder.Lib.DEncrypt
+  commentId: N:Doc.Builder.Lib.DEncrypt
+  isExternal: true
+  name: Doc.Builder.Lib.DEncrypt
+  nameWithType: Doc.Builder.Lib.DEncrypt
+  fullName: Doc.Builder.Lib.DEncrypt
+- uid: Doc.Builder.Lib.DEncrypt.MD5Helper.ToMD5*
+  commentId: Overload:Doc.Builder.Lib.DEncrypt.MD5Helper.ToMD5
+  isExternal: true
+  name: ToMD5
+  nameWithType: MD5Helper.ToMD5
+  fullName: Doc.Builder.Lib.DEncrypt.MD5Helper.ToMD5
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Byte[]
+  isExternal: true
+  name: Byte[]
+  nameWithType: Byte[]
+  fullName: System.Byte[]
+  nameWithType.vb: Byte()
+  fullName.vb: System.Byte()
+  name.vb: Byte()
+  spec.csharp:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: '[]'
+    nameWithType: '[]'
+    fullName: '[]'
+  spec.vb:
+  - uid: System.Byte
+    name: Byte
+    nameWithType: Byte
+    fullName: System.Byte
+    isExternal: true
+  - name: ()
+    nameWithType: ()
+    fullName: ()
+- uid: Doc.Builder.Lib.DEncrypt.MD5Helper.#ctor*
+  commentId: Overload:Doc.Builder.Lib.DEncrypt.MD5Helper.#ctor
+  isExternal: true
+  name: MD5Helper
+  nameWithType: MD5Helper.MD5Helper
+  fullName: Doc.Builder.Lib.DEncrypt.MD5Helper.MD5Helper

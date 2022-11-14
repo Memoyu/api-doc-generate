@@ -1,0 +1,258 @@
+### YamlMime:ManagedReference
+items:
+- uid: Doc.Builder.Service.Domain.Entities.PersonEntity
+  commentId: T:Doc.Builder.Service.Domain.Entities.PersonEntity
+  id: PersonEntity
+  parent: Doc.Builder.Service.Domain.Entities
+  children:
+  - Doc.Builder.Service.Domain.Entities.PersonEntity.#ctor
+  - Doc.Builder.Service.Domain.Entities.PersonEntity.Age
+  - Doc.Builder.Service.Domain.Entities.PersonEntity.Gender
+  - Doc.Builder.Service.Domain.Entities.PersonEntity.Id
+  - Doc.Builder.Service.Domain.Entities.PersonEntity.Name
+  langs:
+  - csharp
+  - vb
+  name: PersonEntity
+  nameWithType: PersonEntity
+  fullName: Doc.Builder.Service.Domain.Entities.PersonEntity
+  type: Class
+  source:
+    path: Doc.Builder.Service
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Service
+  namespace: Doc.Builder.Service.Domain.Entities
+  summary: "\nPerson 实体\n"
+  syntax:
+    content: 'public class PersonEntity : Object'
+    content.vb: >-
+      Public Class PersonEntity
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Doc.Builder.Service.Domain.Entities.PersonEntity.#ctor
+  commentId: M:Doc.Builder.Service.Domain.Entities.PersonEntity.#ctor
+  id: '#ctor'
+  parent: Doc.Builder.Service.Domain.Entities.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: PersonEntity()
+  nameWithType: PersonEntity.PersonEntity()
+  fullName: Doc.Builder.Service.Domain.Entities.PersonEntity.PersonEntity()
+  type: Constructor
+  source:
+    path: Doc.Builder.Service
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Service
+  namespace: Doc.Builder.Service.Domain.Entities
+  syntax:
+    content: public PersonEntity()
+    content.vb: Public Sub New
+  overload: Doc.Builder.Service.Domain.Entities.PersonEntity.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Doc.Builder.Service.Domain.Entities.PersonEntity.Id
+  commentId: P:Doc.Builder.Service.Domain.Entities.PersonEntity.Id
+  id: Id
+  parent: Doc.Builder.Service.Domain.Entities.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Id
+  nameWithType: PersonEntity.Id
+  fullName: Doc.Builder.Service.Domain.Entities.PersonEntity.Id
+  type: Property
+  source:
+    path: Doc.Builder.Service
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Service
+  namespace: Doc.Builder.Service.Domain.Entities
+  summary: "\n唯一Id\n"
+  syntax:
+    content: public int Id { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Id As Integer
+  overload: Doc.Builder.Service.Domain.Entities.PersonEntity.Id*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Doc.Builder.Service.Domain.Entities.PersonEntity.Name
+  commentId: P:Doc.Builder.Service.Domain.Entities.PersonEntity.Name
+  id: Name
+  parent: Doc.Builder.Service.Domain.Entities.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: PersonEntity.Name
+  fullName: Doc.Builder.Service.Domain.Entities.PersonEntity.Name
+  type: Property
+  source:
+    path: Doc.Builder.Service
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Service
+  namespace: Doc.Builder.Service.Domain.Entities
+  summary: "\n姓名\n"
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Doc.Builder.Service.Domain.Entities.PersonEntity.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Doc.Builder.Service.Domain.Entities.PersonEntity.Age
+  commentId: P:Doc.Builder.Service.Domain.Entities.PersonEntity.Age
+  id: Age
+  parent: Doc.Builder.Service.Domain.Entities.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Age
+  nameWithType: PersonEntity.Age
+  fullName: Doc.Builder.Service.Domain.Entities.PersonEntity.Age
+  type: Property
+  source:
+    path: Doc.Builder.Service
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Service
+  namespace: Doc.Builder.Service.Domain.Entities
+  summary: "\n年龄\n"
+  syntax:
+    content: public int Age { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Age As Integer
+  overload: Doc.Builder.Service.Domain.Entities.PersonEntity.Age*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Doc.Builder.Service.Domain.Entities.PersonEntity.Gender
+  commentId: P:Doc.Builder.Service.Domain.Entities.PersonEntity.Gender
+  id: Gender
+  parent: Doc.Builder.Service.Domain.Entities.PersonEntity
+  langs:
+  - csharp
+  - vb
+  name: Gender
+  nameWithType: PersonEntity.Gender
+  fullName: Doc.Builder.Service.Domain.Entities.PersonEntity.Gender
+  type: Property
+  source:
+    path: Doc.Builder.Service
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Service
+  namespace: Doc.Builder.Service.Domain.Entities
+  summary: "\n性别\n"
+  syntax:
+    content: public GenderEnum Gender { get; set; }
+    parameters: []
+    return:
+      type: Doc.Builder.Service.Domain.Enums.GenderEnum
+    content.vb: Public Property Gender As GenderEnum
+  overload: Doc.Builder.Service.Domain.Entities.PersonEntity.Gender*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Doc.Builder.Service.Domain.Entities
+  commentId: N:Doc.Builder.Service.Domain.Entities
+  isExternal: true
+  name: Doc.Builder.Service.Domain.Entities
+  nameWithType: Doc.Builder.Service.Domain.Entities
+  fullName: Doc.Builder.Service.Domain.Entities
+- uid: Doc.Builder.Service.Domain.Entities.PersonEntity.#ctor*
+  commentId: Overload:Doc.Builder.Service.Domain.Entities.PersonEntity.#ctor
+  isExternal: true
+  name: PersonEntity
+  nameWithType: PersonEntity.PersonEntity
+  fullName: Doc.Builder.Service.Domain.Entities.PersonEntity.PersonEntity
+- uid: Doc.Builder.Service.Domain.Entities.PersonEntity.Id*
+  commentId: Overload:Doc.Builder.Service.Domain.Entities.PersonEntity.Id
+  isExternal: true
+  name: Id
+  nameWithType: PersonEntity.Id
+  fullName: Doc.Builder.Service.Domain.Entities.PersonEntity.Id
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Doc.Builder.Service.Domain.Entities.PersonEntity.Name*
+  commentId: Overload:Doc.Builder.Service.Domain.Entities.PersonEntity.Name
+  isExternal: true
+  name: Name
+  nameWithType: PersonEntity.Name
+  fullName: Doc.Builder.Service.Domain.Entities.PersonEntity.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Doc.Builder.Service.Domain.Entities.PersonEntity.Age*
+  commentId: Overload:Doc.Builder.Service.Domain.Entities.PersonEntity.Age
+  isExternal: true
+  name: Age
+  nameWithType: PersonEntity.Age
+  fullName: Doc.Builder.Service.Domain.Entities.PersonEntity.Age
+- uid: Doc.Builder.Service.Domain.Entities.PersonEntity.Gender*
+  commentId: Overload:Doc.Builder.Service.Domain.Entities.PersonEntity.Gender
+  isExternal: true
+  name: Gender
+  nameWithType: PersonEntity.Gender
+  fullName: Doc.Builder.Service.Domain.Entities.PersonEntity.Gender
+- uid: Doc.Builder.Service.Domain.Enums.GenderEnum
+  commentId: T:Doc.Builder.Service.Domain.Enums.GenderEnum
+  parent: Doc.Builder.Service.Domain.Enums
+  isExternal: true
+  name: GenderEnum
+  nameWithType: GenderEnum
+  fullName: Doc.Builder.Service.Domain.Enums.GenderEnum
+- uid: Doc.Builder.Service.Domain.Enums
+  commentId: N:Doc.Builder.Service.Domain.Enums
+  isExternal: true
+  name: Doc.Builder.Service.Domain.Enums
+  nameWithType: Doc.Builder.Service.Domain.Enums
+  fullName: Doc.Builder.Service.Domain.Enums

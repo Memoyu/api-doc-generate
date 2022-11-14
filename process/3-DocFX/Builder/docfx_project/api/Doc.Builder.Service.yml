@@ -1,0 +1,37 @@
+### YamlMime:ManagedReference
+items:
+- uid: Doc.Builder.Service
+  commentId: N:Doc.Builder.Service
+  id: Doc.Builder.Service
+  children:
+  - Doc.Builder.Service.CurdService
+  - Doc.Builder.Service.ICurdService
+  langs:
+  - csharp
+  - vb
+  name: Doc.Builder.Service
+  nameWithType: Doc.Builder.Service
+  fullName: Doc.Builder.Service
+  type: Namespace
+  assemblies:
+  - Doc.Builder.Service
+references:
+- uid: Doc.Builder.Service.CurdService
+  commentId: T:Doc.Builder.Service.CurdService
+  isExternal: true
+  name: CurdService
+  nameWithType: CurdService
+  fullName: Doc.Builder.Service.CurdService
+- uid: Doc.Builder.Service.ICurdService
+  commentId: T:Doc.Builder.Service.ICurdService
+  parent: Doc.Builder.Service
+  isExternal: true
+  name: ICurdService
+  nameWithType: ICurdService
+  fullName: Doc.Builder.Service.ICurdService
+- uid: Doc.Builder.Service
+  commentId: N:Doc.Builder.Service
+  isExternal: true
+  name: Doc.Builder.Service
+  nameWithType: Doc.Builder.Service
+  fullName: Doc.Builder.Service

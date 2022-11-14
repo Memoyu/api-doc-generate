@@ -1,0 +1,126 @@
+### YamlMime:ManagedReference
+items:
+- uid: Doc.Builder.Lib.DEncrypt.HashHelper
+  commentId: T:Doc.Builder.Lib.DEncrypt.HashHelper
+  id: HashHelper
+  parent: Doc.Builder.Lib.DEncrypt
+  children:
+  - Doc.Builder.Lib.DEncrypt.HashHelper.#ctor
+  - Doc.Builder.Lib.DEncrypt.HashHelper.ToHash(System.String)
+  langs:
+  - csharp
+  - vb
+  name: HashHelper
+  nameWithType: HashHelper
+  fullName: Doc.Builder.Lib.DEncrypt.HashHelper
+  type: Class
+  source:
+    path: Doc.Builder.Lib
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Lib
+  namespace: Doc.Builder.Lib.DEncrypt
+  summary: "\nHash 工具类\n"
+  syntax:
+    content: 'public class HashHelper : Object'
+    content.vb: >-
+      Public Class HashHelper
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Doc.Builder.Lib.DEncrypt.HashHelper.ToHash(System.String)
+  commentId: M:Doc.Builder.Lib.DEncrypt.HashHelper.ToHash(System.String)
+  id: ToHash(System.String)
+  parent: Doc.Builder.Lib.DEncrypt.HashHelper
+  langs:
+  - csharp
+  - vb
+  name: ToHash(String)
+  nameWithType: HashHelper.ToHash(String)
+  fullName: Doc.Builder.Lib.DEncrypt.HashHelper.ToHash(System.String)
+  type: Method
+  source:
+    path: Doc.Builder.Lib
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Lib
+  namespace: Doc.Builder.Lib.DEncrypt
+  summary: "\n字符串生成Hash\n"
+  syntax:
+    content: public string ToHash(string plainText)
+    parameters:
+    - id: plainText
+      type: System.String
+      description: 原文
+    return:
+      type: System.String
+      description: 返回生成的hash
+    content.vb: Public Function ToHash(plainText As String) As String
+  overload: Doc.Builder.Lib.DEncrypt.HashHelper.ToHash*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Doc.Builder.Lib.DEncrypt.HashHelper.#ctor
+  commentId: M:Doc.Builder.Lib.DEncrypt.HashHelper.#ctor
+  id: '#ctor'
+  parent: Doc.Builder.Lib.DEncrypt.HashHelper
+  langs:
+  - csharp
+  - vb
+  name: HashHelper()
+  nameWithType: HashHelper.HashHelper()
+  fullName: Doc.Builder.Lib.DEncrypt.HashHelper.HashHelper()
+  type: Constructor
+  source:
+    path: Doc.Builder.Lib
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Lib
+  namespace: Doc.Builder.Lib.DEncrypt
+  syntax:
+    content: public HashHelper()
+    content.vb: Public Sub New
+  overload: Doc.Builder.Lib.DEncrypt.HashHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Doc.Builder.Lib.DEncrypt
+  commentId: N:Doc.Builder.Lib.DEncrypt
+  isExternal: true
+  name: Doc.Builder.Lib.DEncrypt
+  nameWithType: Doc.Builder.Lib.DEncrypt
+  fullName: Doc.Builder.Lib.DEncrypt
+- uid: Doc.Builder.Lib.DEncrypt.HashHelper.ToHash*
+  commentId: Overload:Doc.Builder.Lib.DEncrypt.HashHelper.ToHash
+  isExternal: true
+  name: ToHash
+  nameWithType: HashHelper.ToHash
+  fullName: Doc.Builder.Lib.DEncrypt.HashHelper.ToHash
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Doc.Builder.Lib.DEncrypt.HashHelper.#ctor*
+  commentId: Overload:Doc.Builder.Lib.DEncrypt.HashHelper.#ctor
+  isExternal: true
+  name: HashHelper
+  nameWithType: HashHelper.HashHelper
+  fullName: Doc.Builder.Lib.DEncrypt.HashHelper.HashHelper

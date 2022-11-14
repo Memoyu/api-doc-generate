@@ -1,0 +1,259 @@
+### YamlMime:ManagedReference
+items:
+- uid: Doc.Builder.Lib.TimeHelper
+  commentId: T:Doc.Builder.Lib.TimeHelper
+  id: TimeHelper
+  parent: Doc.Builder.Lib
+  children:
+  - Doc.Builder.Lib.TimeHelper.#ctor
+  - Doc.Builder.Lib.TimeHelper.ConvertDateTime(System.DateTime)
+  - Doc.Builder.Lib.TimeHelper.GetEndDateTime(System.DateTime)
+  - Doc.Builder.Lib.TimeHelper.GetStartDateTime(System.DateTime)
+  - Doc.Builder.Lib.TimeHelper.GetTime(System.String)
+  langs:
+  - csharp
+  - vb
+  name: TimeHelper
+  nameWithType: TimeHelper
+  fullName: Doc.Builder.Lib.TimeHelper
+  type: Class
+  source:
+    path: Doc.Builder.Lib
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Lib
+  namespace: Doc.Builder.Lib
+  summary: "\nDateTime 工具类\n"
+  syntax:
+    content: 'public class TimeHelper : Object'
+    content.vb: >-
+      Public Class TimeHelper
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Doc.Builder.Lib.TimeHelper.GetTime(System.String)
+  commentId: M:Doc.Builder.Lib.TimeHelper.GetTime(System.String)
+  id: GetTime(System.String)
+  parent: Doc.Builder.Lib.TimeHelper
+  langs:
+  - csharp
+  - vb
+  name: GetTime(String)
+  nameWithType: TimeHelper.GetTime(String)
+  fullName: Doc.Builder.Lib.TimeHelper.GetTime(System.String)
+  type: Method
+  source:
+    path: Doc.Builder.Lib
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Lib
+  namespace: Doc.Builder.Lib
+  summary: "\n时间戳转为C#格式时间\n"
+  syntax:
+    content: public static DateTime GetTime(string timeStamp)
+    parameters:
+    - id: timeStamp
+      type: System.String
+      description: Unix时间戳
+    return:
+      type: System.DateTime
+      description: 返回DateTime实例
+    content.vb: Public Shared Function GetTime(timeStamp As String) As DateTime
+  overload: Doc.Builder.Lib.TimeHelper.GetTime*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Doc.Builder.Lib.TimeHelper.ConvertDateTime(System.DateTime)
+  commentId: M:Doc.Builder.Lib.TimeHelper.ConvertDateTime(System.DateTime)
+  id: ConvertDateTime(System.DateTime)
+  parent: Doc.Builder.Lib.TimeHelper
+  langs:
+  - csharp
+  - vb
+  name: ConvertDateTime(DateTime)
+  nameWithType: TimeHelper.ConvertDateTime(DateTime)
+  fullName: Doc.Builder.Lib.TimeHelper.ConvertDateTime(System.DateTime)
+  type: Method
+  source:
+    path: Doc.Builder.Lib
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Lib
+  namespace: Doc.Builder.Lib
+  summary: "\nDateTime时间格式转换为Unix时间戳格式\n"
+  syntax:
+    content: public static string ConvertDateTime(DateTime time)
+    parameters:
+    - id: time
+      type: System.DateTime
+      description: DateTime实例
+    return:
+      type: System.String
+      description: 返回string Unix时间戳格式
+    content.vb: Public Shared Function ConvertDateTime(time As DateTime) As String
+  overload: Doc.Builder.Lib.TimeHelper.ConvertDateTime*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Doc.Builder.Lib.TimeHelper.GetStartDateTime(System.DateTime)
+  commentId: M:Doc.Builder.Lib.TimeHelper.GetStartDateTime(System.DateTime)
+  id: GetStartDateTime(System.DateTime)
+  parent: Doc.Builder.Lib.TimeHelper
+  langs:
+  - csharp
+  - vb
+  name: GetStartDateTime(DateTime)
+  nameWithType: TimeHelper.GetStartDateTime(DateTime)
+  fullName: Doc.Builder.Lib.TimeHelper.GetStartDateTime(System.DateTime)
+  type: Method
+  source:
+    path: Doc.Builder.Lib
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Lib
+  namespace: Doc.Builder.Lib
+  summary: "\n获取以0点0分0秒开始的日期\n"
+  syntax:
+    content: public static DateTime GetStartDateTime(DateTime d)
+    parameters:
+    - id: d
+      type: System.DateTime
+      description: DateTime实例
+    return:
+      type: System.DateTime
+      description: 返回处理后DateTime实例
+    content.vb: Public Shared Function GetStartDateTime(d As DateTime) As DateTime
+  overload: Doc.Builder.Lib.TimeHelper.GetStartDateTime*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Doc.Builder.Lib.TimeHelper.GetEndDateTime(System.DateTime)
+  commentId: M:Doc.Builder.Lib.TimeHelper.GetEndDateTime(System.DateTime)
+  id: GetEndDateTime(System.DateTime)
+  parent: Doc.Builder.Lib.TimeHelper
+  langs:
+  - csharp
+  - vb
+  name: GetEndDateTime(DateTime)
+  nameWithType: TimeHelper.GetEndDateTime(DateTime)
+  fullName: Doc.Builder.Lib.TimeHelper.GetEndDateTime(System.DateTime)
+  type: Method
+  source:
+    path: Doc.Builder.Lib
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Lib
+  namespace: Doc.Builder.Lib
+  summary: "\n获取以23点59分59秒结束的日期\n"
+  syntax:
+    content: public static DateTime GetEndDateTime(DateTime d)
+    parameters:
+    - id: d
+      type: System.DateTime
+      description: DateTime实例
+    return:
+      type: System.DateTime
+      description: 返回处理后DateTime实例
+    content.vb: Public Shared Function GetEndDateTime(d As DateTime) As DateTime
+  overload: Doc.Builder.Lib.TimeHelper.GetEndDateTime*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Doc.Builder.Lib.TimeHelper.#ctor
+  commentId: M:Doc.Builder.Lib.TimeHelper.#ctor
+  id: '#ctor'
+  parent: Doc.Builder.Lib.TimeHelper
+  langs:
+  - csharp
+  - vb
+  name: TimeHelper()
+  nameWithType: TimeHelper.TimeHelper()
+  fullName: Doc.Builder.Lib.TimeHelper.TimeHelper()
+  type: Constructor
+  source:
+    path: Doc.Builder.Lib
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Lib
+  namespace: Doc.Builder.Lib
+  syntax:
+    content: public TimeHelper()
+    content.vb: Public Sub New
+  overload: Doc.Builder.Lib.TimeHelper.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Doc.Builder.Lib
+  commentId: N:Doc.Builder.Lib
+  isExternal: true
+  name: Doc.Builder.Lib
+  nameWithType: Doc.Builder.Lib
+  fullName: Doc.Builder.Lib
+- uid: Doc.Builder.Lib.TimeHelper.GetTime*
+  commentId: Overload:Doc.Builder.Lib.TimeHelper.GetTime
+  isExternal: true
+  name: GetTime
+  nameWithType: TimeHelper.GetTime
+  fullName: Doc.Builder.Lib.TimeHelper.GetTime
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.DateTime
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Doc.Builder.Lib.TimeHelper.ConvertDateTime*
+  commentId: Overload:Doc.Builder.Lib.TimeHelper.ConvertDateTime
+  isExternal: true
+  name: ConvertDateTime
+  nameWithType: TimeHelper.ConvertDateTime
+  fullName: Doc.Builder.Lib.TimeHelper.ConvertDateTime
+- uid: Doc.Builder.Lib.TimeHelper.GetStartDateTime*
+  commentId: Overload:Doc.Builder.Lib.TimeHelper.GetStartDateTime
+  isExternal: true
+  name: GetStartDateTime
+  nameWithType: TimeHelper.GetStartDateTime
+  fullName: Doc.Builder.Lib.TimeHelper.GetStartDateTime
+- uid: Doc.Builder.Lib.TimeHelper.GetEndDateTime*
+  commentId: Overload:Doc.Builder.Lib.TimeHelper.GetEndDateTime
+  isExternal: true
+  name: GetEndDateTime
+  nameWithType: TimeHelper.GetEndDateTime
+  fullName: Doc.Builder.Lib.TimeHelper.GetEndDateTime
+- uid: Doc.Builder.Lib.TimeHelper.#ctor*
+  commentId: Overload:Doc.Builder.Lib.TimeHelper.#ctor
+  isExternal: true
+  name: TimeHelper
+  nameWithType: TimeHelper.TimeHelper
+  fullName: Doc.Builder.Lib.TimeHelper.TimeHelper

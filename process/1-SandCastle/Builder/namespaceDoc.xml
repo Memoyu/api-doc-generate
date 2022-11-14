@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+  <assembly>
+    <name>_NamespaceComments_</name>
+  </assembly>
+  <member name="R:Project_Doc.Builder">
+      <summary>
+        Doc.Builder项目介绍
+      </summary>
+    </member>
+  <members>
+    <member name="N:Doc.Builder.Lib">
+      <summary>
+        项目公共引用类库
+      </summary>
+    </member>
+    <member name="N:Doc.Builder.Service">
+      <summary>
+        项目Service接口及实现
+      </summary>
+    </member>
+  </members>
+</doc>

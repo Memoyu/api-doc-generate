@@ -1,0 +1,37 @@
+### YamlMime:TableOfContent
+- uid: Doc.Builder.Lib
+  name: Doc.Builder.Lib
+  items:
+  - uid: Doc.Builder.Lib.TimeHelper
+    name: TimeHelper
+- uid: Doc.Builder.Lib.DEncrypt
+  name: Doc.Builder.Lib.DEncrypt
+  items:
+  - uid: Doc.Builder.Lib.DEncrypt.HashHelper
+    name: HashHelper
+  - uid: Doc.Builder.Lib.DEncrypt.MD5Helper
+    name: MD5Helper
+- uid: Doc.Builder.Service
+  name: Doc.Builder.Service
+  items:
+  - uid: Doc.Builder.Service.CurdService
+    name: CurdService
+  - uid: Doc.Builder.Service.ICurdService
+    name: ICurdService
+- uid: Doc.Builder.Service.Domain.Dtos
+  name: Doc.Builder.Service.Domain.Dtos
+  items:
+  - uid: Doc.Builder.Service.Domain.Dtos.PersonDto
+    name: PersonDto
+- uid: Doc.Builder.Service.Domain.Entities
+  name: Doc.Builder.Service.Domain.Entities
+  items:
+  - uid: Doc.Builder.Service.Domain.Entities.CarEntity
+    name: CarEntity
+  - uid: Doc.Builder.Service.Domain.Entities.PersonEntity
+    name: PersonEntity
+- uid: Doc.Builder.Service.Domain.Enums
+  name: Doc.Builder.Service.Domain.Enums
+  items:
+  - uid: Doc.Builder.Service.Domain.Enums.GenderEnum
+    name: GenderEnum

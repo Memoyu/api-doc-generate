@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Doc.Builder.Lib
+  commentId: N:Doc.Builder.Lib
+  id: Doc.Builder.Lib
+  children:
+  - Doc.Builder.Lib.TimeHelper
+  langs:
+  - csharp
+  - vb
+  name: Doc.Builder.Lib
+  nameWithType: Doc.Builder.Lib
+  fullName: Doc.Builder.Lib
+  type: Namespace
+  assemblies:
+  - Doc.Builder.Lib
+references:
+- uid: Doc.Builder.Lib.TimeHelper
+  commentId: T:Doc.Builder.Lib.TimeHelper
+  isExternal: true
+  name: TimeHelper
+  nameWithType: TimeHelper
+  fullName: Doc.Builder.Lib.TimeHelper

@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Doc.Builder.Service.Domain.Dtos
+  commentId: N:Doc.Builder.Service.Domain.Dtos
+  id: Doc.Builder.Service.Domain.Dtos
+  children:
+  - Doc.Builder.Service.Domain.Dtos.PersonDto
+  langs:
+  - csharp
+  - vb
+  name: Doc.Builder.Service.Domain.Dtos
+  nameWithType: Doc.Builder.Service.Domain.Dtos
+  fullName: Doc.Builder.Service.Domain.Dtos
+  type: Namespace
+  assemblies:
+  - Doc.Builder.Service
+references:
+- uid: Doc.Builder.Service.Domain.Dtos.PersonDto
+  commentId: T:Doc.Builder.Service.Domain.Dtos.PersonDto
+  isExternal: true
+  name: PersonDto
+  nameWithType: PersonDto
+  fullName: Doc.Builder.Service.Domain.Dtos.PersonDto

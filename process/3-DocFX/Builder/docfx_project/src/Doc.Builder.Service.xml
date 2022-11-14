@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Doc.Builder.Service</name>
+    </assembly>
+    <members>
+        <member name="T:Doc.Builder.Service.Domain.Dtos.PersonDto">
+            <summary>
+            Person Dto
+            </summary>
+        </member>
+        <member name="P:Doc.Builder.Service.Domain.Dtos.PersonDto.Name">
+            <summary>
+            姓名
+            </summary>
+        </member>
+        <member name="P:Doc.Builder.Service.Domain.Dtos.PersonDto.Age">
+            <summary>
+            年龄
+            </summary>
+        </member>
+        <member name="P:Doc.Builder.Service.Domain.Dtos.PersonDto.Gender">
+            <summary>
+            性别
+            </summary>
+        </member>
+        <member name="T:Doc.Builder.Service.Domain.Entities.CarEntity">
+            <summary>
+            Car 实体
+            </summary>
+        </member>
+        <member name="P:Doc.Builder.Service.Domain.Entities.CarEntity.Id">
+            <summary>
+            唯一Id
+            </summary>
+        </member>
+        <member name="P:Doc.Builder.Service.Domain.Entities.CarEntity.Logo">
+            <summary>
+            车标
+            </summary>
+        </member>
+        <member name="P:Doc.Builder.Service.Domain.Entities.CarEntity.Height">
+            <summary>
+            车高
+            </summary>
+        </member>
+        <member name="P:Doc.Builder.Service.Domain.Entities.CarEntity.Width">
+            <summary>
+            车宽
+            </summary>
+        </member>
+        <member name="T:Doc.Builder.Service.Domain.Entities.PersonEntity">
+            <summary>
+            Person 实体
+            </summary>
+        </member>
+        <member name="P:Doc.Builder.Service.Domain.Entities.PersonEntity.Id">
+            <summary>
+            唯一Id
+            </summary>
+        </member>
+        <member name="P:Doc.Builder.Service.Domain.Entities.PersonEntity.Name">
+            <summary>
+            姓名
+            </summary>
+        </member>
+        <member name="P:Doc.Builder.Service.Domain.Entities.PersonEntity.Age">
+            <summary>
+            年龄
+            </summary>
+        </member>
+        <member name="P:Doc.Builder.Service.Domain.Entities.PersonEntity.Gender">
+            <summary>
+            性别
+            </summary>
+        </member>
+        <member name="T:Doc.Builder.Service.Domain.Enums.GenderEnum">
+            <summary>
+            性别枚举
+            </summary>
+        </member>
+        <member name="F:Doc.Builder.Service.Domain.Enums.GenderEnum.Unknown">
+            <summary>
+            未知
+            </summary>
+        </member>
+        <member name="F:Doc.Builder.Service.Domain.Enums.GenderEnum.Man">
+            <summary>
+            男性
+            </summary>
+        </member>
+        <member name="F:Doc.Builder.Service.Domain.Enums.GenderEnum.Woman">
+            <summary>
+            女性
+            </summary>
+        </member>
+        <member name="T:Doc.Builder.Service.ICurdService">
+            <summary>
+            测试 CRUD Service 
+            </summary>
+        </member>
+        <member name="M:Doc.Builder.Service.ICurdService.Del(System.Int32)">
+            <summary>
+            删除指定id数据
+            </summary>
+            <param name="id">唯一id</param>
+            <returns>返回删除成功与否</returns>
+        </member>
+        <member name="M:Doc.Builder.Service.ICurdService.Get(System.Int32)">
+            <summary>
+            获取指定id数据
+            </summary>
+            <param name="id">唯一id</param>
+            <returns>返回数据Dto</returns>
+        </member>
+        <member name="M:Doc.Builder.Service.ICurdService.Get(System.String,Doc.Builder.Service.Domain.Enums.GenderEnum)">
+            <summary>
+            获取指定姓名、性别数据
+            </summary>
+            <param name="name">姓名</param>
+            <param name="gender">性别</param>
+            <returns>返回数据Dto</returns>
+        </member>
+        <member name="M:Doc.Builder.Service.ICurdService.Insert(Doc.Builder.Service.Domain.Entities.PersonEntity)">
+            <summary>
+            插入实体数据
+            </summary>
+            <param name="entity">插入实体</param>
+            <returns>返回删除成功与否</returns>
+        </member>
+        <member name="M:Doc.Builder.Service.ICurdService.Update(Doc.Builder.Service.Domain.Entities.PersonEntity)">
+            <summary>
+            更新实体数据
+            </summary>
+            <param name="entity">更新实体</param>
+            <returns>返回删除成功与否</returns>
+        </member>
+    </members>
+</doc>

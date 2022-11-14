@@ -1,0 +1,30 @@
+### YamlMime:ManagedReference
+items:
+- uid: Doc.Builder.Lib.DEncrypt
+  commentId: N:Doc.Builder.Lib.DEncrypt
+  id: Doc.Builder.Lib.DEncrypt
+  children:
+  - Doc.Builder.Lib.DEncrypt.HashHelper
+  - Doc.Builder.Lib.DEncrypt.MD5Helper
+  langs:
+  - csharp
+  - vb
+  name: Doc.Builder.Lib.DEncrypt
+  nameWithType: Doc.Builder.Lib.DEncrypt
+  fullName: Doc.Builder.Lib.DEncrypt
+  type: Namespace
+  assemblies:
+  - Doc.Builder.Lib
+references:
+- uid: Doc.Builder.Lib.DEncrypt.HashHelper
+  commentId: T:Doc.Builder.Lib.DEncrypt.HashHelper
+  isExternal: true
+  name: HashHelper
+  nameWithType: HashHelper
+  fullName: Doc.Builder.Lib.DEncrypt.HashHelper
+- uid: Doc.Builder.Lib.DEncrypt.MD5Helper
+  commentId: T:Doc.Builder.Lib.DEncrypt.MD5Helper
+  isExternal: true
+  name: MD5Helper
+  nameWithType: MD5Helper
+  fullName: Doc.Builder.Lib.DEncrypt.MD5Helper

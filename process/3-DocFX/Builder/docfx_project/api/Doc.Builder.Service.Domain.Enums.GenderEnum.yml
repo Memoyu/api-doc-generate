@@ -1,0 +1,182 @@
+### YamlMime:ManagedReference
+items:
+- uid: Doc.Builder.Service.Domain.Enums.GenderEnum
+  commentId: T:Doc.Builder.Service.Domain.Enums.GenderEnum
+  id: GenderEnum
+  parent: Doc.Builder.Service.Domain.Enums
+  children:
+  - Doc.Builder.Service.Domain.Enums.GenderEnum.Man
+  - Doc.Builder.Service.Domain.Enums.GenderEnum.Unknown
+  - Doc.Builder.Service.Domain.Enums.GenderEnum.value__
+  - Doc.Builder.Service.Domain.Enums.GenderEnum.Woman
+  langs:
+  - csharp
+  - vb
+  name: GenderEnum
+  nameWithType: GenderEnum
+  fullName: Doc.Builder.Service.Domain.Enums.GenderEnum
+  type: Class
+  source:
+    path: Doc.Builder.Service
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Service
+  namespace: Doc.Builder.Service.Domain.Enums
+  summary: "\n性别枚举\n"
+  syntax:
+    content: 'public sealed class GenderEnum : Enum'
+    content.vb: >-
+      Public NotInheritable Class GenderEnum
+          Inherits
+
+           Enum
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - sealed
+  - class
+  modifiers.vb:
+  - Public
+  - NotInheritable
+  - Class
+- uid: Doc.Builder.Service.Domain.Enums.GenderEnum.value__
+  commentId: F:Doc.Builder.Service.Domain.Enums.GenderEnum.value__
+  id: value__
+  parent: Doc.Builder.Service.Domain.Enums.GenderEnum
+  langs:
+  - csharp
+  - vb
+  name: value__
+  nameWithType: GenderEnum.value__
+  fullName: Doc.Builder.Service.Domain.Enums.GenderEnum.value__
+  type: Field
+  source:
+    path: Doc.Builder.Service
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Service
+  namespace: Doc.Builder.Service.Domain.Enums
+  syntax:
+    content: public int value__
+    return:
+      type: System.Int32
+    content.vb: Public value__ As Integer
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Doc.Builder.Service.Domain.Enums.GenderEnum.Unknown
+  commentId: F:Doc.Builder.Service.Domain.Enums.GenderEnum.Unknown
+  id: Unknown
+  parent: Doc.Builder.Service.Domain.Enums.GenderEnum
+  langs:
+  - csharp
+  - vb
+  name: Unknown
+  nameWithType: GenderEnum.Unknown
+  fullName: Doc.Builder.Service.Domain.Enums.GenderEnum.Unknown
+  type: Field
+  source:
+    path: Doc.Builder.Service
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Service
+  namespace: Doc.Builder.Service.Domain.Enums
+  summary: "\n未知\n"
+  syntax:
+    content: public const GenderEnum Unknown
+    return:
+      type: Doc.Builder.Service.Domain.Enums.GenderEnum
+    content.vb: Public Const Unknown As GenderEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Doc.Builder.Service.Domain.Enums.GenderEnum.Man
+  commentId: F:Doc.Builder.Service.Domain.Enums.GenderEnum.Man
+  id: Man
+  parent: Doc.Builder.Service.Domain.Enums.GenderEnum
+  langs:
+  - csharp
+  - vb
+  name: Man
+  nameWithType: GenderEnum.Man
+  fullName: Doc.Builder.Service.Domain.Enums.GenderEnum.Man
+  type: Field
+  source:
+    path: Doc.Builder.Service
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Service
+  namespace: Doc.Builder.Service.Domain.Enums
+  summary: "\n男性\n"
+  syntax:
+    content: public const GenderEnum Man
+    return:
+      type: Doc.Builder.Service.Domain.Enums.GenderEnum
+    content.vb: Public Const Man As GenderEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+- uid: Doc.Builder.Service.Domain.Enums.GenderEnum.Woman
+  commentId: F:Doc.Builder.Service.Domain.Enums.GenderEnum.Woman
+  id: Woman
+  parent: Doc.Builder.Service.Domain.Enums.GenderEnum
+  langs:
+  - csharp
+  - vb
+  name: Woman
+  nameWithType: GenderEnum.Woman
+  fullName: Doc.Builder.Service.Domain.Enums.GenderEnum.Woman
+  type: Field
+  source:
+    path: Doc.Builder.Service
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Service
+  namespace: Doc.Builder.Service.Domain.Enums
+  summary: "\n女性\n"
+  syntax:
+    content: public const GenderEnum Woman
+    return:
+      type: Doc.Builder.Service.Domain.Enums.GenderEnum
+    content.vb: Public Const Woman As GenderEnum
+  modifiers.csharp:
+  - public
+  - const
+  modifiers.vb:
+  - Public
+  - Const
+references:
+- uid: Doc.Builder.Service.Domain.Enums
+  commentId: N:Doc.Builder.Service.Domain.Enums
+  isExternal: true
+  name: Doc.Builder.Service.Domain.Enums
+  nameWithType: Doc.Builder.Service.Domain.Enums
+  fullName: Doc.Builder.Service.Domain.Enums
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Doc.Builder.Service.Domain.Enums.GenderEnum
+  commentId: T:Doc.Builder.Service.Domain.Enums.GenderEnum
+  parent: Doc.Builder.Service.Domain.Enums
+  isExternal: true
+  name: GenderEnum
+  nameWithType: GenderEnum
+  fullName: Doc.Builder.Service.Domain.Enums.GenderEnum

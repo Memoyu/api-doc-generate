@@ -1,0 +1,220 @@
+### YamlMime:ManagedReference
+items:
+- uid: Doc.Builder.Service.Domain.Dtos.PersonDto
+  commentId: T:Doc.Builder.Service.Domain.Dtos.PersonDto
+  id: PersonDto
+  parent: Doc.Builder.Service.Domain.Dtos
+  children:
+  - Doc.Builder.Service.Domain.Dtos.PersonDto.#ctor
+  - Doc.Builder.Service.Domain.Dtos.PersonDto.Age
+  - Doc.Builder.Service.Domain.Dtos.PersonDto.Gender
+  - Doc.Builder.Service.Domain.Dtos.PersonDto.Name
+  langs:
+  - csharp
+  - vb
+  name: PersonDto
+  nameWithType: PersonDto
+  fullName: Doc.Builder.Service.Domain.Dtos.PersonDto
+  type: Class
+  source:
+    path: Doc.Builder.Service
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Service
+  namespace: Doc.Builder.Service.Domain.Dtos
+  summary: "\nPerson Dto\n"
+  syntax:
+    content: 'public class PersonDto : Object'
+    content.vb: >-
+      Public Class PersonDto
+          Inherits Object
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Doc.Builder.Service.Domain.Dtos.PersonDto.#ctor
+  commentId: M:Doc.Builder.Service.Domain.Dtos.PersonDto.#ctor
+  id: '#ctor'
+  parent: Doc.Builder.Service.Domain.Dtos.PersonDto
+  langs:
+  - csharp
+  - vb
+  name: PersonDto()
+  nameWithType: PersonDto.PersonDto()
+  fullName: Doc.Builder.Service.Domain.Dtos.PersonDto.PersonDto()
+  type: Constructor
+  source:
+    path: Doc.Builder.Service
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Service
+  namespace: Doc.Builder.Service.Domain.Dtos
+  syntax:
+    content: public PersonDto()
+    content.vb: Public Sub New
+  overload: Doc.Builder.Service.Domain.Dtos.PersonDto.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Doc.Builder.Service.Domain.Dtos.PersonDto.Name
+  commentId: P:Doc.Builder.Service.Domain.Dtos.PersonDto.Name
+  id: Name
+  parent: Doc.Builder.Service.Domain.Dtos.PersonDto
+  langs:
+  - csharp
+  - vb
+  name: Name
+  nameWithType: PersonDto.Name
+  fullName: Doc.Builder.Service.Domain.Dtos.PersonDto.Name
+  type: Property
+  source:
+    path: Doc.Builder.Service
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Service
+  namespace: Doc.Builder.Service.Domain.Dtos
+  summary: "\n姓名\n"
+  syntax:
+    content: public string Name { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Name As String
+  overload: Doc.Builder.Service.Domain.Dtos.PersonDto.Name*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Doc.Builder.Service.Domain.Dtos.PersonDto.Age
+  commentId: P:Doc.Builder.Service.Domain.Dtos.PersonDto.Age
+  id: Age
+  parent: Doc.Builder.Service.Domain.Dtos.PersonDto
+  langs:
+  - csharp
+  - vb
+  name: Age
+  nameWithType: PersonDto.Age
+  fullName: Doc.Builder.Service.Domain.Dtos.PersonDto.Age
+  type: Property
+  source:
+    path: Doc.Builder.Service
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Service
+  namespace: Doc.Builder.Service.Domain.Dtos
+  summary: "\n年龄\n"
+  syntax:
+    content: public int Age { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property Age As Integer
+  overload: Doc.Builder.Service.Domain.Dtos.PersonDto.Age*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: Doc.Builder.Service.Domain.Dtos.PersonDto.Gender
+  commentId: P:Doc.Builder.Service.Domain.Dtos.PersonDto.Gender
+  id: Gender
+  parent: Doc.Builder.Service.Domain.Dtos.PersonDto
+  langs:
+  - csharp
+  - vb
+  name: Gender
+  nameWithType: PersonDto.Gender
+  fullName: Doc.Builder.Service.Domain.Dtos.PersonDto.Gender
+  type: Property
+  source:
+    path: Doc.Builder.Service
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Service
+  namespace: Doc.Builder.Service.Domain.Dtos
+  summary: "\n性别\n"
+  syntax:
+    content: public GenderEnum Gender { get; set; }
+    parameters: []
+    return:
+      type: Doc.Builder.Service.Domain.Enums.GenderEnum
+    content.vb: Public Property Gender As GenderEnum
+  overload: Doc.Builder.Service.Domain.Dtos.PersonDto.Gender*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: Doc.Builder.Service.Domain.Dtos
+  commentId: N:Doc.Builder.Service.Domain.Dtos
+  isExternal: true
+  name: Doc.Builder.Service.Domain.Dtos
+  nameWithType: Doc.Builder.Service.Domain.Dtos
+  fullName: Doc.Builder.Service.Domain.Dtos
+- uid: Doc.Builder.Service.Domain.Dtos.PersonDto.#ctor*
+  commentId: Overload:Doc.Builder.Service.Domain.Dtos.PersonDto.#ctor
+  isExternal: true
+  name: PersonDto
+  nameWithType: PersonDto.PersonDto
+  fullName: Doc.Builder.Service.Domain.Dtos.PersonDto.PersonDto
+- uid: Doc.Builder.Service.Domain.Dtos.PersonDto.Name*
+  commentId: Overload:Doc.Builder.Service.Domain.Dtos.PersonDto.Name
+  isExternal: true
+  name: Name
+  nameWithType: PersonDto.Name
+  fullName: Doc.Builder.Service.Domain.Dtos.PersonDto.Name
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Doc.Builder.Service.Domain.Dtos.PersonDto.Age*
+  commentId: Overload:Doc.Builder.Service.Domain.Dtos.PersonDto.Age
+  isExternal: true
+  name: Age
+  nameWithType: PersonDto.Age
+  fullName: Doc.Builder.Service.Domain.Dtos.PersonDto.Age
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Doc.Builder.Service.Domain.Dtos.PersonDto.Gender*
+  commentId: Overload:Doc.Builder.Service.Domain.Dtos.PersonDto.Gender
+  isExternal: true
+  name: Gender
+  nameWithType: PersonDto.Gender
+  fullName: Doc.Builder.Service.Domain.Dtos.PersonDto.Gender
+- uid: Doc.Builder.Service.Domain.Enums.GenderEnum
+  commentId: T:Doc.Builder.Service.Domain.Enums.GenderEnum
+  parent: Doc.Builder.Service.Domain.Enums
+  isExternal: true
+  name: GenderEnum
+  nameWithType: GenderEnum
+  fullName: Doc.Builder.Service.Domain.Enums.GenderEnum
+- uid: Doc.Builder.Service.Domain.Enums
+  commentId: N:Doc.Builder.Service.Domain.Enums
+  isExternal: true
+  name: Doc.Builder.Service.Domain.Enums
+  nameWithType: Doc.Builder.Service.Domain.Enums
+  fullName: Doc.Builder.Service.Domain.Enums

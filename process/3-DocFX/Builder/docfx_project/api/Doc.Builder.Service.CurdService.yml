@@ -1,0 +1,664 @@
+### YamlMime:ManagedReference
+items:
+- uid: Doc.Builder.Service.CurdService
+  commentId: T:Doc.Builder.Service.CurdService
+  id: CurdService
+  parent: Doc.Builder.Service
+  children:
+  - Doc.Builder.Service.CurdService.#ctor
+  - Doc.Builder.Service.CurdService.Del(System.Int32)
+  - Doc.Builder.Service.CurdService.Get(System.Int32)
+  - Doc.Builder.Service.CurdService.Get(System.String,Doc.Builder.Service.Domain.Enums.GenderEnum)
+  - Doc.Builder.Service.CurdService.Insert(Doc.Builder.Service.Domain.Entities.PersonEntity)
+  - Doc.Builder.Service.CurdService.Update(Doc.Builder.Service.Domain.Entities.PersonEntity)
+  langs:
+  - csharp
+  - vb
+  name: CurdService
+  nameWithType: CurdService
+  fullName: Doc.Builder.Service.CurdService
+  type: Class
+  source:
+    path: Doc.Builder.Service
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Service
+  namespace: Doc.Builder.Service
+  syntax:
+    content: 'public class CurdService : Object, ICurdService'
+    content.vb: >-
+      Public Class CurdService
+          Inherits Object
+          Implements ICurdService
+  inheritance:
+  - System.Object
+  implements:
+  - Doc.Builder.Service.ICurdService
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Doc.Builder.Service.CurdService.Del(System.Int32)
+  commentId: M:Doc.Builder.Service.CurdService.Del(System.Int32)
+  id: Del(System.Int32)
+  parent: Doc.Builder.Service.CurdService
+  langs:
+  - csharp
+  - vb
+  name: Del(Int32)
+  nameWithType: CurdService.Del(Int32)
+  fullName: Doc.Builder.Service.CurdService.Del(System.Int32)
+  type: Method
+  source:
+    path: Doc.Builder.Service
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Service
+  namespace: Doc.Builder.Service
+  syntax:
+    content: public Task<bool> Del(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Public Function Del(id As Integer) As Task(Of Boolean)
+  overload: Doc.Builder.Service.CurdService.Del*
+  implements:
+  - Doc.Builder.Service.ICurdService.Del(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Doc.Builder.Service.CurdService.Get(System.Int32)
+  commentId: M:Doc.Builder.Service.CurdService.Get(System.Int32)
+  id: Get(System.Int32)
+  parent: Doc.Builder.Service.CurdService
+  langs:
+  - csharp
+  - vb
+  name: Get(Int32)
+  nameWithType: CurdService.Get(Int32)
+  fullName: Doc.Builder.Service.CurdService.Get(System.Int32)
+  type: Method
+  source:
+    path: Doc.Builder.Service
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Service
+  namespace: Doc.Builder.Service
+  syntax:
+    content: public Task<PersonDto> Get(int id)
+    parameters:
+    - id: id
+      type: System.Int32
+    return:
+      type: System.Threading.Tasks.Task{Doc.Builder.Service.Domain.Dtos.PersonDto}
+    content.vb: Public Function Get(id As Integer) As Task(Of PersonDto)
+  overload: Doc.Builder.Service.CurdService.Get*
+  implements:
+  - Doc.Builder.Service.ICurdService.Get(System.Int32)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Doc.Builder.Service.CurdService.Get(System.String,Doc.Builder.Service.Domain.Enums.GenderEnum)
+  commentId: M:Doc.Builder.Service.CurdService.Get(System.String,Doc.Builder.Service.Domain.Enums.GenderEnum)
+  id: Get(System.String,Doc.Builder.Service.Domain.Enums.GenderEnum)
+  parent: Doc.Builder.Service.CurdService
+  langs:
+  - csharp
+  - vb
+  name: Get(String, GenderEnum)
+  nameWithType: CurdService.Get(String, GenderEnum)
+  fullName: Doc.Builder.Service.CurdService.Get(System.String, Doc.Builder.Service.Domain.Enums.GenderEnum)
+  type: Method
+  source:
+    path: Doc.Builder.Service
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Service
+  namespace: Doc.Builder.Service
+  syntax:
+    content: public Task<PersonDto> Get(string name, GenderEnum gender)
+    parameters:
+    - id: name
+      type: System.String
+    - id: gender
+      type: Doc.Builder.Service.Domain.Enums.GenderEnum
+    return:
+      type: System.Threading.Tasks.Task{Doc.Builder.Service.Domain.Dtos.PersonDto}
+    content.vb: Public Function Get(name As String, gender As GenderEnum) As Task(Of PersonDto)
+  overload: Doc.Builder.Service.CurdService.Get*
+  implements:
+  - Doc.Builder.Service.ICurdService.Get(System.String,Doc.Builder.Service.Domain.Enums.GenderEnum)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Doc.Builder.Service.CurdService.Insert(Doc.Builder.Service.Domain.Entities.PersonEntity)
+  commentId: M:Doc.Builder.Service.CurdService.Insert(Doc.Builder.Service.Domain.Entities.PersonEntity)
+  id: Insert(Doc.Builder.Service.Domain.Entities.PersonEntity)
+  parent: Doc.Builder.Service.CurdService
+  langs:
+  - csharp
+  - vb
+  name: Insert(PersonEntity)
+  nameWithType: CurdService.Insert(PersonEntity)
+  fullName: Doc.Builder.Service.CurdService.Insert(Doc.Builder.Service.Domain.Entities.PersonEntity)
+  type: Method
+  source:
+    path: Doc.Builder.Service
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Service
+  namespace: Doc.Builder.Service
+  syntax:
+    content: public Task<bool> Insert(PersonEntity entity)
+    parameters:
+    - id: entity
+      type: Doc.Builder.Service.Domain.Entities.PersonEntity
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Public Function Insert(entity As PersonEntity) As Task(Of Boolean)
+  overload: Doc.Builder.Service.CurdService.Insert*
+  implements:
+  - Doc.Builder.Service.ICurdService.Insert(Doc.Builder.Service.Domain.Entities.PersonEntity)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Doc.Builder.Service.CurdService.Update(Doc.Builder.Service.Domain.Entities.PersonEntity)
+  commentId: M:Doc.Builder.Service.CurdService.Update(Doc.Builder.Service.Domain.Entities.PersonEntity)
+  id: Update(Doc.Builder.Service.Domain.Entities.PersonEntity)
+  parent: Doc.Builder.Service.CurdService
+  langs:
+  - csharp
+  - vb
+  name: Update(PersonEntity)
+  nameWithType: CurdService.Update(PersonEntity)
+  fullName: Doc.Builder.Service.CurdService.Update(Doc.Builder.Service.Domain.Entities.PersonEntity)
+  type: Method
+  source:
+    path: Doc.Builder.Service
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Service
+  namespace: Doc.Builder.Service
+  syntax:
+    content: public Task<bool> Update(PersonEntity entity)
+    parameters:
+    - id: entity
+      type: Doc.Builder.Service.Domain.Entities.PersonEntity
+    return:
+      type: System.Threading.Tasks.Task{System.Boolean}
+    content.vb: Public Function Update(entity As PersonEntity) As Task(Of Boolean)
+  overload: Doc.Builder.Service.CurdService.Update*
+  implements:
+  - Doc.Builder.Service.ICurdService.Update(Doc.Builder.Service.Domain.Entities.PersonEntity)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: Doc.Builder.Service.CurdService.#ctor
+  commentId: M:Doc.Builder.Service.CurdService.#ctor
+  id: '#ctor'
+  parent: Doc.Builder.Service.CurdService
+  langs:
+  - csharp
+  - vb
+  name: CurdService()
+  nameWithType: CurdService.CurdService()
+  fullName: Doc.Builder.Service.CurdService.CurdService()
+  type: Constructor
+  source:
+    path: Doc.Builder.Service
+    isExternal: true
+  assemblies:
+  - Doc.Builder.Service
+  namespace: Doc.Builder.Service
+  syntax:
+    content: public CurdService()
+    content.vb: Public Sub New
+  overload: Doc.Builder.Service.CurdService.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Doc.Builder.Service
+  commentId: N:Doc.Builder.Service
+  isExternal: true
+  name: Doc.Builder.Service
+  nameWithType: Doc.Builder.Service
+  fullName: Doc.Builder.Service
+- uid: Doc.Builder.Service.ICurdService
+  commentId: T:Doc.Builder.Service.ICurdService
+  parent: Doc.Builder.Service
+  isExternal: true
+  name: ICurdService
+  nameWithType: ICurdService
+  fullName: Doc.Builder.Service.ICurdService
+- uid: Doc.Builder.Service.CurdService.Del*
+  commentId: Overload:Doc.Builder.Service.CurdService.Del
+  isExternal: true
+  name: Del
+  nameWithType: CurdService.Del
+  fullName: Doc.Builder.Service.CurdService.Del
+- uid: Doc.Builder.Service.ICurdService.Del(System.Int32)
+  commentId: M:Doc.Builder.Service.ICurdService.Del(System.Int32)
+  parent: Doc.Builder.Service.ICurdService
+  isExternal: true
+  name: Del(Int32)
+  nameWithType: ICurdService.Del(Int32)
+  fullName: Doc.Builder.Service.ICurdService.Del(System.Int32)
+  spec.csharp:
+  - uid: Doc.Builder.Service.ICurdService.Del(System.Int32)
+    name: Del
+    nameWithType: ICurdService.Del
+    fullName: Doc.Builder.Service.ICurdService.Del
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Doc.Builder.Service.ICurdService.Del(System.Int32)
+    name: Del
+    nameWithType: ICurdService.Del
+    fullName: Doc.Builder.Service.ICurdService.Del
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Threading.Tasks.Task{System.Boolean}
+  commentId: '!:System.Threading.Tasks.Task{System.Boolean}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<Boolean>
+  nameWithType: Task<Boolean>
+  fullName: System.Threading.Tasks.Task<System.Boolean>
+  nameWithType.vb: Task(Of Boolean)
+  fullName.vb: System.Threading.Tasks.Task(Of System.Boolean)
+  name.vb: Task(Of Boolean)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Boolean
+    name: Boolean
+    nameWithType: Boolean
+    fullName: System.Boolean
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<>
+  nameWithType: Task<>
+  fullName: System.Threading.Tasks.Task<>
+  nameWithType.vb: Task(Of )
+  fullName.vb: System.Threading.Tasks.Task(Of )
+  name.vb: Task(Of )
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: ''
+    nameWithType: ''
+    fullName: ''
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Doc.Builder.Service.CurdService.Get*
+  commentId: Overload:Doc.Builder.Service.CurdService.Get
+  isExternal: true
+  name: Get
+  nameWithType: CurdService.Get
+  fullName: Doc.Builder.Service.CurdService.Get
+- uid: Doc.Builder.Service.ICurdService.Get(System.Int32)
+  commentId: M:Doc.Builder.Service.ICurdService.Get(System.Int32)
+  parent: Doc.Builder.Service.ICurdService
+  isExternal: true
+  name: Get(Int32)
+  nameWithType: ICurdService.Get(Int32)
+  fullName: Doc.Builder.Service.ICurdService.Get(System.Int32)
+  spec.csharp:
+  - uid: Doc.Builder.Service.ICurdService.Get(System.Int32)
+    name: Get
+    nameWithType: ICurdService.Get
+    fullName: Doc.Builder.Service.ICurdService.Get
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Doc.Builder.Service.ICurdService.Get(System.Int32)
+    name: Get
+    nameWithType: ICurdService.Get
+    fullName: Doc.Builder.Service.ICurdService.Get
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Int32
+    name: Int32
+    nameWithType: Int32
+    fullName: System.Int32
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task{Doc.Builder.Service.Domain.Dtos.PersonDto}
+  commentId: '!:System.Threading.Tasks.Task{Doc.Builder.Service.Domain.Dtos.PersonDto}'
+  definition: System.Threading.Tasks.Task`1
+  name: Task<PersonDto>
+  nameWithType: Task<PersonDto>
+  fullName: System.Threading.Tasks.Task<Doc.Builder.Service.Domain.Dtos.PersonDto>
+  nameWithType.vb: Task(Of PersonDto)
+  fullName.vb: System.Threading.Tasks.Task(Of Doc.Builder.Service.Domain.Dtos.PersonDto)
+  name.vb: Task(Of PersonDto)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Doc.Builder.Service.Domain.Dtos.PersonDto
+    name: PersonDto
+    nameWithType: PersonDto
+    fullName: Doc.Builder.Service.Domain.Dtos.PersonDto
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Doc.Builder.Service.Domain.Dtos.PersonDto
+    name: PersonDto
+    nameWithType: PersonDto
+    fullName: Doc.Builder.Service.Domain.Dtos.PersonDto
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Doc.Builder.Service.ICurdService.Get(System.String,Doc.Builder.Service.Domain.Enums.GenderEnum)
+  commentId: M:Doc.Builder.Service.ICurdService.Get(System.String,Doc.Builder.Service.Domain.Enums.GenderEnum)
+  parent: Doc.Builder.Service.ICurdService
+  isExternal: true
+  name: Get(String, GenderEnum)
+  nameWithType: ICurdService.Get(String, GenderEnum)
+  fullName: Doc.Builder.Service.ICurdService.Get(System.String, Doc.Builder.Service.Domain.Enums.GenderEnum)
+  spec.csharp:
+  - uid: Doc.Builder.Service.ICurdService.Get(System.String,Doc.Builder.Service.Domain.Enums.GenderEnum)
+    name: Get
+    nameWithType: ICurdService.Get
+    fullName: Doc.Builder.Service.ICurdService.Get
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Doc.Builder.Service.Domain.Enums.GenderEnum
+    name: GenderEnum
+    nameWithType: GenderEnum
+    fullName: Doc.Builder.Service.Domain.Enums.GenderEnum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Doc.Builder.Service.ICurdService.Get(System.String,Doc.Builder.Service.Domain.Enums.GenderEnum)
+    name: Get
+    nameWithType: ICurdService.Get
+    fullName: Doc.Builder.Service.ICurdService.Get
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.String
+    name: String
+    nameWithType: String
+    fullName: System.String
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: Doc.Builder.Service.Domain.Enums.GenderEnum
+    name: GenderEnum
+    nameWithType: GenderEnum
+    fullName: Doc.Builder.Service.Domain.Enums.GenderEnum
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Doc.Builder.Service.Domain.Enums.GenderEnum
+  commentId: T:Doc.Builder.Service.Domain.Enums.GenderEnum
+  parent: Doc.Builder.Service.Domain.Enums
+  isExternal: true
+  name: GenderEnum
+  nameWithType: GenderEnum
+  fullName: Doc.Builder.Service.Domain.Enums.GenderEnum
+- uid: Doc.Builder.Service.Domain.Enums
+  commentId: N:Doc.Builder.Service.Domain.Enums
+  isExternal: true
+  name: Doc.Builder.Service.Domain.Enums
+  nameWithType: Doc.Builder.Service.Domain.Enums
+  fullName: Doc.Builder.Service.Domain.Enums
+- uid: Doc.Builder.Service.CurdService.Insert*
+  commentId: Overload:Doc.Builder.Service.CurdService.Insert
+  isExternal: true
+  name: Insert
+  nameWithType: CurdService.Insert
+  fullName: Doc.Builder.Service.CurdService.Insert
+- uid: Doc.Builder.Service.ICurdService.Insert(Doc.Builder.Service.Domain.Entities.PersonEntity)
+  commentId: M:Doc.Builder.Service.ICurdService.Insert(Doc.Builder.Service.Domain.Entities.PersonEntity)
+  parent: Doc.Builder.Service.ICurdService
+  isExternal: true
+  name: Insert(PersonEntity)
+  nameWithType: ICurdService.Insert(PersonEntity)
+  fullName: Doc.Builder.Service.ICurdService.Insert(Doc.Builder.Service.Domain.Entities.PersonEntity)
+  spec.csharp:
+  - uid: Doc.Builder.Service.ICurdService.Insert(Doc.Builder.Service.Domain.Entities.PersonEntity)
+    name: Insert
+    nameWithType: ICurdService.Insert
+    fullName: Doc.Builder.Service.ICurdService.Insert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Doc.Builder.Service.Domain.Entities.PersonEntity
+    name: PersonEntity
+    nameWithType: PersonEntity
+    fullName: Doc.Builder.Service.Domain.Entities.PersonEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Doc.Builder.Service.ICurdService.Insert(Doc.Builder.Service.Domain.Entities.PersonEntity)
+    name: Insert
+    nameWithType: ICurdService.Insert
+    fullName: Doc.Builder.Service.ICurdService.Insert
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Doc.Builder.Service.Domain.Entities.PersonEntity
+    name: PersonEntity
+    nameWithType: PersonEntity
+    fullName: Doc.Builder.Service.Domain.Entities.PersonEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Doc.Builder.Service.Domain.Entities.PersonEntity
+  commentId: T:Doc.Builder.Service.Domain.Entities.PersonEntity
+  parent: Doc.Builder.Service.Domain.Entities
+  isExternal: true
+  name: PersonEntity
+  nameWithType: PersonEntity
+  fullName: Doc.Builder.Service.Domain.Entities.PersonEntity
+- uid: Doc.Builder.Service.Domain.Entities
+  commentId: N:Doc.Builder.Service.Domain.Entities
+  isExternal: true
+  name: Doc.Builder.Service.Domain.Entities
+  nameWithType: Doc.Builder.Service.Domain.Entities
+  fullName: Doc.Builder.Service.Domain.Entities
+- uid: Doc.Builder.Service.CurdService.Update*
+  commentId: Overload:Doc.Builder.Service.CurdService.Update
+  isExternal: true
+  name: Update
+  nameWithType: CurdService.Update
+  fullName: Doc.Builder.Service.CurdService.Update
+- uid: Doc.Builder.Service.ICurdService.Update(Doc.Builder.Service.Domain.Entities.PersonEntity)
+  commentId: M:Doc.Builder.Service.ICurdService.Update(Doc.Builder.Service.Domain.Entities.PersonEntity)
+  parent: Doc.Builder.Service.ICurdService
+  isExternal: true
+  name: Update(PersonEntity)
+  nameWithType: ICurdService.Update(PersonEntity)
+  fullName: Doc.Builder.Service.ICurdService.Update(Doc.Builder.Service.Domain.Entities.PersonEntity)
+  spec.csharp:
+  - uid: Doc.Builder.Service.ICurdService.Update(Doc.Builder.Service.Domain.Entities.PersonEntity)
+    name: Update
+    nameWithType: ICurdService.Update
+    fullName: Doc.Builder.Service.ICurdService.Update
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Doc.Builder.Service.Domain.Entities.PersonEntity
+    name: PersonEntity
+    nameWithType: PersonEntity
+    fullName: Doc.Builder.Service.Domain.Entities.PersonEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Doc.Builder.Service.ICurdService.Update(Doc.Builder.Service.Domain.Entities.PersonEntity)
+    name: Update
+    nameWithType: ICurdService.Update
+    fullName: Doc.Builder.Service.ICurdService.Update
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Doc.Builder.Service.Domain.Entities.PersonEntity
+    name: PersonEntity
+    nameWithType: PersonEntity
+    fullName: Doc.Builder.Service.Domain.Entities.PersonEntity
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Doc.Builder.Service.CurdService.#ctor*
+  commentId: Overload:Doc.Builder.Service.CurdService.#ctor
+  isExternal: true
+  name: CurdService
+  nameWithType: CurdService.CurdService
+  fullName: Doc.Builder.Service.CurdService.CurdService
